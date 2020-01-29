@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>Tableau I</title>
+        <style>
+            body {
+                display: grid;
+                background: black;
+                grid-template-rows: 30px 190px 100px 20px 80px 100px; 
+                grid-template-columns:30px 70px 190px 50px 20px;
+                grid-template-areas: "black1 black1 red1 red1 red1"
+                                     "white1 white1 red1 red1 red1"
+                                     "white1 white1 white2 white2 white3"
+                                     "black2 white4 white5 white5 white3"
+                                     "yellow1 white4 white5 white5 white3"
+                                     "yellow1 white4 white6 blue1 blue1";
+            }
+            div {
+                border: 5px solid black;
+            }
+            #white1 {
+                background: white;
+                grid-area: white1;
+            }
+            #white2 {
+                background: white;
+                grid-area: white2;
+            }
+            #white3 {
+                background: white;
+                grid-area: white3;
+            }
+            #white4 {
+                background: white;
+                grid-area: white4;
+            }
+            #white5 {
+                background: white;
+                grid-area: white5;
+            }
+            #white6 {
+                background: white;
+                grid-area: white6;
+            }
+            #red1 {
+                background: red;
+                grid-area: red1;
+            }
+            #black1 {
+                background: black;
+                grid-area: black2;
+            }
+            #black2 {
+                background: black;
+                grid-area: black2;
+            }
+            #yellow1 {
+                background: yellow;
+                grid-area: yellow1;
+            }
+            #blue1 {
+                background: blue;
+                grid-area: blue1;
+            }
+        </style>
+    </head>
+    <body><a href="https://www.piet-mondrian.org/tableau-i.jsp">original</a>
+        <div id="black1"></div>
+        <div id="red1"></div>
+        <div id="white1"></div>
+        <div id="white2"></div>
+        <div id="white3"></div>
+        <div id="black2"></div>
+        <div id="white4"></div>
+        <div id="white5"></div>
+        <div id="yellow1"></div>
+        <div id="white6"></div>
+        <div id="blue1"></div>
+    </body>
+</html>

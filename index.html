@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Tableau II</title>
+        <style>
+            body {
+                display: grid;
+                background: black;
+                grid-template-rows: 30px 50px 70px 100px 50px 20px; 
+                grid-template-columns:20px 150px 150px 100px;
+                grid-template-areas: "white1 white1 yellow1 gray1"
+                                     "white2 white3 white3 gray1"
+                                     "white2 white3 white3 white4"
+                                     "blue1 white3 white3 white4"
+                                     "white5 white5 white5 white4"
+                                     "white5 white5 white5 red1";
+            }
+            div {
+                border: 5px solid black;
+            }
+            #white1 {
+                background: white;
+                grid-area: white1;
+            }
+            #yellow {
+                background: yellow;
+                grid-area: yellow1;
+            }
+            #gray {
+                background: gray;
+                grid-area: gray1;
+            }
+            #white2 {
+                background: white;
+                grid-area: white2;
+            }
+            #white3 {
+                background: white;
+                grid-area: white3;
+            }
+            #white4 {
+                background: white;
+                grid-area: white4;
+            }
+            #blue {
+                background: blue;
+                grid-area: blue1;
+            }
+            #white5 {
+                background: white;
+                grid-area: white5;
+            }
+            #red {
+                background: red;
+                grid-area: red1;
+            }
+        </style>
+    </head>
+    <body><a href="https://www.piet-mondrian.org/tableau-ii.jsp">original</a>
+        <div id="white1"></div>
+        <div id="yellow"></div>
+        <div id="gray"></div>
+        <div id="white2"></div>
+        <div id="white3"></div>
+        <div id="white4"></div>
+        <div id="blue"></div>
+        <div id="white5"></div>
+        <div id="red"></div>
+    </body>
+</html>
